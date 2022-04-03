@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/event_test.dir/event_test.cpp.o -o ../../../bin/examples/event_test  ../../extern/SDL2/libSDL2main.a ../../extern/SDL2/libSDL2.a ../../../lib/libICE_CORE.a -lm -Wl,--no-undefined -pthread ../../extern/spdlog/libspdlog.a 
