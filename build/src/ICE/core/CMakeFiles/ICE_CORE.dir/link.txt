@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libICE_CORE.a CMakeFiles/ICE_CORE.dir/log.cpp.o
+/usr/bin/ranlib ../../../../lib/libICE_CORE.a
