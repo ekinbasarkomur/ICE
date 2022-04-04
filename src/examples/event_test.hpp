@@ -1,5 +1,5 @@
-
-#define EVENT_HPP
+#ifndef EVENT_TEST_HPP
+#define EVENT_TEST_HPP
 
 #ifdef __EMSCRIPTEN__
     #include <emscripten.h>

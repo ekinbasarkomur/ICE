@@ -3,4 +3,6 @@
 
 #include "ICE/core/coremodule.hpp"
 
+#include "ICE/application/application.hpp"
+
 #endif

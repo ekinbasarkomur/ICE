@@ -7,4 +7,3 @@ project(ICE VERSION 0.1.0)
 
 add_subdirectory(extern)
 add_subdirectory(src)
-#add_subdirectory(projects)
