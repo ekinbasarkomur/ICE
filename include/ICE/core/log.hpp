@@ -31,13 +31,13 @@ namespace ICE { namespace Core {
 #define ICE_CORE_INFO(...) ::ICE::Core::Log::getCoreLogger()->info(__VA_ARGS__)
 #define ICE_CORE_WARN(...) ::ICE::Core::Log::getCoreLogger()->warn(__VA_ARGS__)
 #define ICE_CORE_ERROR(...) ::ICE::Core::Log::getCoreLogger()->error(__VA_ARGS__)
-#define ICE_CORE_FATAL(...) ::ICE::Core::Log::getCoreLogger()->fatal(__VA_ARGS__)
+/* #define ICE_CORE_FATAL(...) ::ICE::Core::Log::getCoreLogger()->fatal(__VA_ARGS__) */
 
 // Client log macros
 #define ICE_TRACE(...) ::ICE::Core::Log::getClientLogger()->trace(__VA_ARGS__)
 #define ICE_INFO(...) ::ICE::Core::Log::getClientLogger()->info(__VA_ARGS__)
 #define ICE_WARN(...) ::ICE::Core::Log::getClientLogger()->warn(__VA_ARGS__)
 #define ICE_ERROR(...) ::ICE::Core::Log::getClientLogger()->error(__VA_ARGS__)
-#define ICE_FATAL(...) ::ICE::Core::Log::getClientLogger()->fatal(__VA_ARGS__)
+/* #define ICE_FATAL(...) ::ICE::Core::Log::getClientLogger()->fatal(__VA_ARGS__) */
 
 #endif

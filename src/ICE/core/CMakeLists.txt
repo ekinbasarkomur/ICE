@@ -5,6 +5,7 @@ set(SPDLOG_SOURCE_DIR "${CMAKE_SOURCE_DIR}/src/libs/spdlog")
 set(ICE_CORE_SOURCE_FILES
 	# put all your .c/.cpp here.
 	log.cpp
+    memory.cpp
 )
 
 add_library(${ICE_MODULE_NAME}

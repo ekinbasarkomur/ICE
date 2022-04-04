@@ -16,7 +16,7 @@ int main(int arc, const char ** argv)
 {
     ICE::Core::Log::init();
 
-    ICE_CORE_INFO("DreamEngine Launched");
+    ICE_CORE_INFO("ICE Launched");
 
     // Default Dispatcher
     ICE::Core::Dispatcher::Dispatcher<ICE::Core::Event::EventType> dispatcher;

@@ -1,10 +1,9 @@
 #include "ICE/application/application.hpp"
 
-namespace ICE { namespace Application {
+namespace ICE { namespace App {
 
     Application::Application()
     {
-
     }
 
     Application::~Application()
@@ -14,6 +13,9 @@ namespace ICE { namespace Application {
 
     void Application::Run()
     {
-        ICE_FATAL("here");
+        while(true)
+        {
+            ICE_CORE_WARN("loop");
+        }
     }
 }}

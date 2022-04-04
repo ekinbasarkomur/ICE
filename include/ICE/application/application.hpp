@@ -1,14 +1,14 @@
 #ifndef ICE_APPLICATION_HPP
 #define ICE_APPLICATION_HPP
 
-#include "ICE/core/core.hpp"
+#include "ICE/core/coremodule.hpp"
 
-namespace ICE { namespace APPLICATION {
+namespace ICE { namespace App {
 
     class ICE_API Application {
         public:
             Application();
-            virtual Application();
+            virtual ~Application();
 
             void Run();
     };

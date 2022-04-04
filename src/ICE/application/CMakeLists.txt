@@ -18,7 +18,7 @@ target_include_directories(${ICE_MODULE_NAME} PUBLIC
 )
 
 target_link_libraries(${ICE_MODULE_NAME} PUBLIC
-	spdlog::spdlog
+    ICE_CORE
 )
 
 set_target_properties(${ICE_MODULE_NAME} PROPERTIES

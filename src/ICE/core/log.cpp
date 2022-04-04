@@ -10,7 +10,7 @@ namespace ICE { namespace Core {
     {
         spdlog::set_pattern("%^[%T] %n: %v%$");
 
-        coreLogger_ = spdlog::stdout_color_mt("DreamEngine");
+        coreLogger_ = spdlog::stdout_color_mt("ICE Core");
         coreLogger_->set_level(spdlog::level::trace);
 
         clientLogger_ = spdlog::stdout_color_mt("Application");

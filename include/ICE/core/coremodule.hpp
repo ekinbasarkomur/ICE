@@ -7,4 +7,6 @@
 #include "ICE/core/dispatcher.hpp"
 #include "ICE/core/events/events.hpp"
 
+#include "ICE/core/memory.hpp"
+
 #endif
