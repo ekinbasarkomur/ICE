@@ -5,4 +5,6 @@
 
 #include "ICE/application/application.hpp"
 
+#include "ICE/window/window.hpp"
+
 #endif

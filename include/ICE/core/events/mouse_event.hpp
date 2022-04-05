@@ -3,7 +3,7 @@
 
 #include "ICE/core/event.hpp"
 
-namespace ICE { namespace Core { namespace Event {
+namespace ICE { namespace Core {
 
 
     class ICE_API MouseMovedEvent : public Event
@@ -100,6 +100,6 @@ namespace ICE { namespace Core { namespace Event {
     		EVENT_CLASS_TYPE(MouseButtonReleased)
 	};
 
-}}} //namespace ICE::Core::Event
+}} //namespace ICE::Core
 
 #endif

@@ -6,7 +6,7 @@
 
 #define test EventType::WindowResize;
 
-namespace ICE { namespace Core { namespace Event {
+namespace ICE { namespace Core {
 
     class ICE_API KeyEvent : public Event
     {
@@ -87,6 +87,6 @@ namespace ICE { namespace Core { namespace Event {
             EVENT_CLASS_TYPE(KeyTyped)
     };
 
-}}} //namespace ICE::Core::Event
+}} //namespace ICE::Core
 
 #endif

@@ -3,7 +3,7 @@
 
 #include "ICE/core/event.hpp"
 
-namespace ICE { namespace Core { namespace Event {
+namespace ICE { namespace Core {
 
     class ICE_API WindowResizeEvent : public Event
 	{
@@ -73,6 +73,6 @@ namespace ICE { namespace Core { namespace Event {
     		EVENT_CLASS_CATEGORY(EventCategoryApplication)
 	};
 
-}}} //namespace ICE::Core::Event
+}} //namespace ICE::Core
 
 #endif

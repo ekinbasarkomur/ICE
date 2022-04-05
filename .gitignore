@@ -2,3 +2,5 @@ build/
 em-build/
 bin/
 lib/
+*.vim
+

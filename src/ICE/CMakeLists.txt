@@ -1,12 +1,10 @@
 add_subdirectory(core)
 add_subdirectory(application)
+add_subdirectory(window)
 
 set(PROJECT_NAME ICE)
 
-set(GLM_SOURCE_DIR “${CMAKE_CURRENT_SOURCE_DIR}/libs/GLM”)
 
-set(EM_FLAGS "-s USE_SDL=2 -O3 -s WASM=1 MODULARIZE=1 -s ASSERTIONS=1 -pthread")
-set(SDL_FLAGS "-lSDL2")
 
 # if(EMSCRIPTEN)
 # 	set(USE_FLAGS "${EM_FLAGS} ${SDL_FLAGS}")
@@ -21,12 +19,9 @@ add_executable(ICE ICE.cpp)
 # Make sure YourLib is linked to each app
 target_include_directories(ICE PUBLIC
 	"${CMAKE_SOURCE_DIR}/include"
-	"${GLM_SOURCE_DIR}"
 )
 
 target_link_libraries(ICE PRIVATE
-	SDL2main SDL2-static
-	glm
     ICE_CORE
     ICE_APPLICATION
 )

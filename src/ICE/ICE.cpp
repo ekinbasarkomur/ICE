@@ -17,7 +17,6 @@ class Sandbox: public ICE::App::Application
 
 ICE::App::Application* ICE::App::createApplication()
 {
-    ICE::Core::Log::init();
     return new Sandbox();
 }
 

@@ -4,7 +4,7 @@
 #include "ICE/config.hpp"
 #include "ICE/utils.hpp"
 
-namespace ICE { namespace Core { namespace Event {
+namespace ICE { namespace Core {
 
     enum class EventType : uint32_t
 	{
@@ -66,6 +66,6 @@ namespace ICE { namespace Core { namespace Event {
         return os << e.toString();
     }
 
-}}} //namespace ICE::Core::Event
+}} //namespace ICE::Core
 
 #endif

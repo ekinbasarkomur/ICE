@@ -10,14 +10,13 @@
 #include <vector>
 #include <algorithm>
 
-namespace ICE { namespace Core { namespace Dispatcher {
-
+namespace ICE { namespace Core {
 
     template<typename T>
     class Dispatcher{
         private:
 
-            typedef bool (*func)(const ICE::Core::Event::Event&);
+            typedef bool (*func)(const ICE::Core::Event&);
             std::map<T, std::vector<func>> _observers;
 
 
@@ -30,7 +29,7 @@ namespace ICE { namespace Core { namespace Dispatcher {
             };
 
 
-            void post(ICE::Core::Event::Event& event)
+            void post(ICE::Core::Event& event)
             {
                 if(_observers.find(event.getEventType()) == _observers.end()) {
                     return;
@@ -49,6 +48,6 @@ namespace ICE { namespace Core { namespace Dispatcher {
     };
 
 
-}}} //namespace ICE::Core::Dispatcher
+}} //namespace ICE::Core::Dispatcher
 
 #endif

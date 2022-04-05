@@ -10,7 +10,7 @@
 
 //TODO:
 // Custom Event Decleration
-namespace ICE { namespace Core { namespace Event {
+namespace ICE { namespace Core {
 
     enum class CustomEventType : uint32_t
     {
@@ -22,7 +22,7 @@ namespace ICE { namespace Core { namespace Event {
         EventCategoryCustom    = (1 << 0),
     };
 
-    class ICE_API CustomEvent : public ICE::Core::Event::Event
+    class ICE_API CustomEvent : public ICE::Core::Event
     {
         public:
             CustomEvent() {}
@@ -32,6 +32,6 @@ namespace ICE { namespace Core { namespace Event {
             //EVENT_CLASS_TYPE(CustomEventType, Custom)
     };
 
-}}} //namespace ICE::Core::Event
+}} //namespace ICE::Core
 
 #endif
